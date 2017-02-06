@@ -1,0 +1,101 @@
+	/* h1 {
+
+		color: #268f1d;
+		color : red;
+		color: rgb(255, 94, 170);
+	}
+	 */
+
+	 #first_para {
+	 	
+	 	color: green;
+	 }
+
+	 #second_para {
+	 	
+	 	color: blue;
+	 }
+
+	 #third_para {
+	 	
+	 	color: orange; 
+	 }
+
+	.main-wrapper {
+		background-color: lightgrey;
+	}
+
+	/* body {
+		background-color:  #96B3D3;
+	} */
+
+	.space_wrapper {
+		border: 1px solid red;
+		height: 120px;
+		width: 300px;
+	}
+
+	h3 {
+		border:1px solid green;
+		/* padding-top: 15px;
+		padding-left: 60px;
+		padding-right: 115px;
+		padding-bottom: 15px;
+		margin-top: 30px;
+		margin-left: 50px;
+		margin-right: 50px;
+		margin-bottom: 17px; */
+
+		/* top bottom left right 40px assign */
+		padding: 40px;
+
+		/* top, bottom 10px & left right 20px */
+		padding: 10px 20px;
+		
+		/* top 10px left & right 30px bottom 20px */
+		padding: 10px 30px 20px;
+
+		/* top 10px right 20px bottom 30px left 40px */
+		padding: 10px 20px 30px 40px;
+	}
+
+
+	.border-wrapper {
+		/* border-color: green; */
+		height: 400px;
+		width: 300px;
+		/* border-width: 2px;
+			border-style: solid; */	
+			border : 20px inset green;
+		/* border-radius: 50px; */
+		background-image: url(../images/saraswati.png);
+		background-size: cover;
+		background-position: center;
+		margin: 0 auto;
+	}
+
+	a {
+		background-color: lightgrey;
+		text-decoration: none;
+		padding: 10px;
+		border-radius: 3px;
+	}
+
+	a:hover
+	{
+		color: red;
+	}
+
+	a:active {
+		color: yellow;
+	}
+
+	a:visited {
+		color: green;
+	}
+
+
+
+
+
+
